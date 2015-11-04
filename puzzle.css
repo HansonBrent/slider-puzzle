@@ -1,4 +1,5 @@
-body {
+body {    
+    max-height: 600px;
     background-color: #097c99;
     margin: 0;
     text-align: center;
@@ -7,6 +8,7 @@ body {
 header {
     font-family: Papyrus,fantasy;
     font-size: 2em;
+    
 }
 
 #puzzle {
@@ -28,6 +30,7 @@ header {
 }
 
 #puzzleGrid table {
+    position: relative;
     margin-left: 25px;
     margin-top: 25px;
     border-spacing: 0;
@@ -41,4 +44,26 @@ header {
 
 #puzzleGrid td img {
     display: block;
+    font-family: fantasy;
+    font-size: 10px;
+    
+}
+
+#buttonHelp {
+    float: right;
+    margin: 10px;
+    box-shadow: 5px 5px;
+}
+
+#buttonReset {
+    float: right;
+    margin: 10px;
+    box-shadow: 5px 5px;
+}
+
+#picText {
+    position: absolute;
+    left: 0;
+    top: 0;
+    
 }
